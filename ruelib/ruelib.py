@@ -199,3 +199,6 @@ def read_json_from_file(filepath):
     with open(filepath, "r") as f:
         data = json.load(f)
     return data 
+
+if __name__ == "__main__":
+    pass
